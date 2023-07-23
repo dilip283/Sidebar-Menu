@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="style.css">
+
+    <!----===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+
+<body>
+    <section class="nav">
+        <div class="nav-content">
+            <div class="logo">
+                <a href="#"><img src="/img/Logo.png" alt=""><span>Compliance</span></a>
+            </div>
+            <ul class="nav-links">
+                <li>
+                    <i class='bx bx-help-circle'></i>
+                </li>
+                <li>
+                    <i class='bx bxs-grid'></i>
+                </li>
+                <li>
+                    <img src="/img/oneok-logo 2.png" alt="">
+                </li>
+                <li>
+                    <img src="/img/user.png" alt="">
+                </li>
+
+            </ul>
+        </div>
+    </section>
+
+    <!-- </nav> -->
+
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                </span>
+            </div>
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="#" id="dashboard">
+                            <i class='bx bx-grid-alt icon'></i>
+                            <span class="text nav-text">Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#" id="state">
+                            <i class='bx bx-folder icon'></i>
+                            <span class="text nav-text">State</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#" id="locals">
+                            <i class='bx bx-file icon'></i>
+                            <span class="text nav-text">Locals</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+                <li class="">
+                    <a href="#">
+                        <i class='bx bx-cog icon'></i>
+                        <span class="text nav-text">Settings</span>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="#">
+                        <i class='bx bx-power-off icon'></i>
+                        <span class="text nav-text">Logout</span>
+                    </a>
+                </li>
+            </div>
+        </div>
+
+    </nav>
+    <div id="content1" class="dashboard">
+        <h1>Dashboard</h1>
+    </div>
+
+    <main class="main">
+        <!-- <div id="content1" class="dashboard">
+            <h1>Dashboard</h1>
+        </div> -->
+        <div id="content2">
+            <div class="state">
+                <p>Final Report Submissions</p>
+                <p>Manage Reports</p>
+                <p>Manage Data</p>
+                <p>Import History</p>
+            </div>
+        </div>
+        <div id="content3">
+            <h1>Locals</h1>
+        </div>
+        <div id="searchcontent" class="search-section">
+            <div class="search-bar">
+                <input type="text" placeholder="Search"><i class='bx bx-search'></i>
+                <img src="/img/plus.png" alt="">
+                <img src="/img/dot.png" alt="">
+            </div>
+
+        </div>
+
+        <div id="listdetail" style="overflow-x: auto;">
+            <table>
+                <tr>
+                    <th><input type="checkbox" name="" id=""></th>
+                    <th>TAX YEAR</th>
+                    <th>COMPANY</th>
+                    <th>STATE</th>
+                    <th>REPORT CATEGORY</th>
+                    <th>DUE DATE</th>
+                    <th>SUBMISSION DATE</th>
+                    <th>STATUS</th>
+                    <th>REPORT</th>
+                    <th>OPTIONS</th>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="" id=""></td>
+                    <td>2022</td>
+                    <td>ONEOK Elkcreek Pipeline</td>
+                    <td>WY</td>
+                    <td>WY pipeline</td>
+                    <td>07/05/2022</td>
+                    <td>07/05/2022</td>
+                    <td>Submitted</td>
+                    <td><i class='bx bxs-file-pdf'></i></td>
+                    <td><i class='bx bx-dots-horizontal-rounded'></i></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="" id=""></td>
+                    <td>2022</td>
+                    <td>ONEOK Elkcreek Pipeline</td>
+                    <td>WY</td>
+                    <td>WY pipeline</td>
+                    <td>07/05/2022</td>
+                    <td>07/05/2022</td>
+                    <td>Submitted</td>
+                    <td><i class='bx bxs-file-pdf'></i></td>
+                    <td><i class='bx bx-dots-horizontal-rounded'></i></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="" id=""></td>
+                    <td>2022</td>
+                    <td>ONEOK Elkcreek Pipeline</td>
+                    <td>WY</td>
+                    <td>WY pipeline</td>
+                    <td>07/05/2022</td>
+                    <td>07/05/2022</td>
+                    <td>Submitted</td>
+                    <td><i class='bx bxs-file-pdf'></i></td>
+                    <td><i class='bx bx-dots-horizontal-rounded'></i></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="" id=""></td>
+                    <td>2022</td>
+                    <td>ONEOK Elkcreek Pipeline</td>
+                    <td>WY</td>
+                    <td>WY pipeline</td>
+                    <td>07/05/2022</td>
+                    <td>07/05/2022</td>
+                    <td>Submitted</td>
+                    <td><i class='bx bxs-file-pdf'></i></td>
+                    <td><i class='bx bx-dots-horizontal-rounded'></i></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="" id=""></td>
+                    <td>2022</td>
+                    <td>ONEOK Elkcreek Pipeline</td>
+                    <td>WY</td>
+                    <td>WY pipeline</td>
+                    <td>07/05/2022</td>
+                    <td>07/05/2022</td>
+                    <td>Submitted</td>
+                    <td><i class='bx bxs-file-pdf'></i></td>
+                    <td><i class='bx bx-dots-horizontal-rounded'></i></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="" id=""></td>
+                    <td>2022</td>
+                    <td>ONEOK Elkcreek Pipeline</td>
+                    <td>WY</td>
+                    <td>WY pipeline</td>
+                    <td>07/05/2022</td>
+                    <td>07/05/2022</td>
+                    <td>Submitted</td>
+                    <td><i class='bx bxs-file-pdf'></i></td>
+                    <td><i class='bx bx-dots-horizontal-rounded'></i></td>
+                </tr>
+
+            </table>
+            <div class="bx-container">
+                <div>
+
+                </div>
+                <div class="box">
+                    <div class="box-design">
+                        <i class='bx bxs-message-alt-x'></i>
+                        <span class="number">5</span>
+                        <span class="item-text">Item Selected</span>
+
+                    </div>
+                    <div class="box-design">
+                        <img src="/img/download.png" alt="">
+                    </div>
+                </div>
+                <div>
+
+                </div>
+            </div>
+
+            <div class="footer">
+                <div>
+
+                </div>
+                <div class="pagination">
+                    <span class="border prev">Previous</span>
+                    <span class="border bg-1">1</span>
+                    <span class="border">2</span>
+                    <span class="border">3</span>
+                    <span class="next">Next</span>
+                </div>
+                <div class="page-numbers">
+                    <p>1-10 of 130</p>
+                    <select name="num" id="num">
+                        <option value="10">10</option>
+                    </select>
+                    <span>per row</span>
+                </div>
+            </div>
+    </main>
+    <!-- <div id="content3">
+        <h1>Locals</h1>
+    </div> -->
+
+
+
+
+
+    <!-- Side content Script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+
+        $(document).ready(function () {
+            $(".main").hide();
+
+            // $("#dashboard").click(function () {
+
+            //     $("#content1").show();
+            //     $("#content2").hide();
+            //     $("#content3").hide();
+
+            // });
+
+            $("#state").click(function () {
+                $("#content3").hide();
+                $("#content1").show();
+                $(".main").show();
+
+            });
+
+            // $("#locals").click(function () {
+            //     $("#content1").hide();
+            //     $("#content2").hide();
+            //     $("#searchcontent").hide();
+            //     $("#listdetail").hide();
+            //     $("#content3").show();
+            // });
+            
+        });
+
+    </script>
+    <!-- Side content Script -->
+
+    <!-- Nav menu script -->
+    <script>
+        let nav = document.querySelector("nav");
+        window.onscroll = function () {
+            if (document.documentElement.scrollTop > 20) {
+                nav.classList.add("sticky");
+            } else {
+                nav.classList.remove("sticky");
+            }
+        }
+    </script>
+    <!-- Nav script end -->
+    <script>
+        const body = document.querySelector('body'),
+            sidebar = body.querySelector('nav'),
+            toggle = body.querySelector(".toggle"),
+            searchBtn = body.querySelector(".search-box"),
+            modeSwitch = body.querySelector(".toggle-switch"),
+            modeText = body.querySelector(".mode-text");
+
+
+        toggle.addEventListener("click", () => {
+            sidebar.classList.toggle("close");
+        })
+
+        searchBtn.addEventListener("click", () => {
+            sidebar.classList.remove("close");
+        })
+
+    </script>
+
+
+
+</body>
+
+</html>
